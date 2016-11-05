@@ -1,0 +1,30 @@
+{
+  "name": "api-vk-client",
+  "version": "1.0.0",
+  "description": "VK API Client written in Node.JS",
+  "main": "lib/index.js",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "request": "^2.78.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^4.0.2",
+    "eslint-config-dmdnkv": "^1.0.2",
+    "eslint-plugin-import": "^1.11.0",
+    "nodeunit": "^0.9.1",
+    "rewire": "^2.5.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/nodeunit"
+  },
+  "keywords": [
+    "VK",
+    "API",
+    "Client",
+    "vkontakte"
+  ],
+  "author": "dmdnkv",
+  "license": "Apache-2.0"
+}
