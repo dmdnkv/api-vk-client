@@ -1,12 +1,19 @@
 {
   "name": "api-vk-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "VK API Client written in Node.JS",
   "main": "lib/index.js",
   "dependencies": {
     "bluebird": "^3.4.6",
     "request": "^2.78.0",
     "request-promise": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmdnkv/api-vk-client.git"
+  },
+  "bugs": {
+    "url": "http://github.com/dmdnkv/api-vk-client/issues"
   },
   "devDependencies": {
     "eslint": "^3.1.1",
